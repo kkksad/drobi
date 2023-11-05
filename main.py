@@ -84,7 +84,7 @@ class MyWindow(QMainWindow):
                 break
         return itog_list
     
-    def appr_fraction(self,input_list): # преобразование в похожую(не ебу какую дробь
+    def appr_fraction(self,input_list): # преобразование в похожую дробь
         col=len(input_list)
         n=input_list[col-1]
         d=1
